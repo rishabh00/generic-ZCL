@@ -1,0 +1,576 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACK_FORMAT_FIELD_DISABLE	client-enddevice/source/aps.c	38;"	d	file:
+ACK_FORMAT_FIELD_DISABLE	server-coordinator/source/aps.c	38;"	d	file:
+ACK_FORMAT_FIELD_ENABLE	client-enddevice/source/aps.c	39;"	d	file:
+ACK_FORMAT_FIELD_ENABLE	server-coordinator/source/aps.c	39;"	d	file:
+ACK_REQUEST_SUB_FIELD_DISABLE	client-enddevice/source/aps.c	42;"	d	file:
+ACK_REQUEST_SUB_FIELD_DISABLE	server-coordinator/source/aps.c	42;"	d	file:
+ACK_REQUEST_SUB_FIELD_ENABLE	client-enddevice/source/aps.c	43;"	d	file:
+ACK_REQUEST_SUB_FIELD_ENABLE	server-coordinator/source/aps.c	43;"	d	file:
+ADSU	client-enddevice/include/APS.h	/^	uint8_t ADSU[100];$/;"	m	struct:DATA_Request
+ADSU	client-enddevice/include/APS.h	/^	uint8_t ADSU[100];$/;"	m	struct:__anon19
+ADSU	server-coordinator/include/APS.h	/^    uint8_t ADSU[100];$/;"	m	struct:DATA_Request
+ADSU	server-coordinator/include/APS.h	/^    uint8_t ADSU[100];$/;"	m	struct:__anon4
+ADSULength	client-enddevice/include/APS.h	/^	uint8_t ADSULength;$/;"	m	struct:DATA_Request
+ADSULength	client-enddevice/include/APS.h	/^	uint8_t ADSULength;$/;"	m	struct:__anon19
+ADSULength	server-coordinator/include/APS.h	/^    uint8_t ADSULength;$/;"	m	struct:DATA_Request
+ADSULength	server-coordinator/include/APS.h	/^    uint8_t ADSULength;$/;"	m	struct:__anon4
+ADSU_TOO_LONG	client-enddevice/include/APS.h	/^	ADSU_TOO_LONG,$/;"	e	enum:__anon16
+ADSU_TOO_LONG	server-coordinator/include/APS.h	/^    ADSU_TOO_LONG,$/;"	e	enum:__anon1
+APDE_NWK	client-enddevice/source/nwk.c	/^int APDE_NWK( NwkMsg_t *msg )$/;"	f
+APDE_NWK	server-coordinator/source/nwk.c	/^int APDE_NWK( NwkMsg_t *msg )$/;"	f
+APDE_ZCL_Handler	client-enddevice/source/aps.c	/^void ( *APDE_ZCL_Handler )( DataIndication_t );$/;"	v
+APDE_ZCL_Handler	server-coordinator/source/aps.c	/^void ( *APDE_ZCL_Handler )( DataIndication_t );$/;"	v
+APME_DeivceRemove_Handler	server-coordinator/source/aps.c	/^void ( *APME_DeivceRemove_Handler )( uint16_t );$/;"	v
+APME_Deviceremove_Saphandler	server-coordinator/source/zdo.c	/^void APME_Deviceremove_Saphandler( uint16_t device_ID )$/;"	f
+APME_ZDO_Handler	client-enddevice/source/aps.c	/^void ( *APME_ZDO_Handler )(DataIndication_t );$/;"	v
+APME_ZDO_Handler	server-coordinator/source/aps.c	/^void ( *APME_ZDO_Handler )(DataIndication_t );$/;"	v
+APME_ZDO_Saphandler	client-enddevice/source/zdo.c	/^void APME_ZDO_Saphandler( DataIndication_t IndicationData )$/;"	f
+APME_ZDO_Saphandler	server-coordinator/source/zdo.c	/^void APME_ZDO_Saphandler( DataIndication_t IndicationData )$/;"	f
+APSDE_DATA_Indication	client-enddevice/source/aps.c	/^void APSDE_DATA_Indication( frame_t MsgDecode, int len, uint16_t devId )$/;"	f
+APSDE_DATA_Indication	server-coordinator/source/aps.c	/^void APSDE_DATA_Indication( frame_t MsgDecode, int len, uint16_t devId )$/;"	f
+APSDE_DATA_Request	client-enddevice/source/aps.c	/^void APSDE_DATA_Request( struct DATA_Request *req )$/;"	f
+APSDE_DATA_Request	server-coordinator/source/aps.c	/^void APSDE_DATA_Request( struct DATA_Request *req )$/;"	f
+APSKEY	client-enddevice/source/aps.c	20;"	d	file:
+APSKEY	server-coordinator/source/aps.c	20;"	d	file:
+APSPacket	client-enddevice/source/aps.c	/^frame_t *APSPacket;$/;"	v
+APSPacket	server-coordinator/source/aps.c	/^frame_t *APSPacket;$/;"	v
+APS_COUNTER	client-enddevice/source/aps.c	27;"	d	file:
+APS_COUNTER	server-coordinator/source/aps.c	27;"	d	file:
+APS_Frame	client-enddevice/include/APS.h	/^typedef struct APS_Frame{$/;"	s
+APS_Frame	server-coordinator/include/APS.h	/^typedef struct APS_Frame{$/;"	s
+APS_RegisterSapHandlers	client-enddevice/source/aps.c	/^void APS_RegisterSapHandlers(void (*APME_ZDO_SapHandler)( DataIndication_t MsgDecode ), void (*APDE_ZCL_SapHandler)( DataIndication_t MsgDecode ))$/;"	f
+APS_RegisterSapHandlers	server-coordinator/source/aps.c	/^void APS_RegisterSapHandlers(void (*APME_ZDO_SapHandler)( DataIndication_t MsgDecode ), void (*APDE_ZCL_SapHandler)( DataIndication_t MsgDecode ), void (*DeviceRemove)( uint16_t ID ) )$/;"	f
+APS_init	client-enddevice/source/aps.c	/^void APS_init()$/;"	f
+APS_init	server-coordinator/source/aps.c	/^void APS_init()$/;"	f
+AckFormat	client-enddevice/include/APS.h	/^		char AckFormat:1;$/;"	m	struct:__anon17::__anon18
+AckFormat	server-coordinator/include/APS.h	/^        char AckFormat:1;$/;"	m	struct:__anon2::__anon3
+AckRequest	client-enddevice/include/APS.h	/^		char AckRequest:1;$/;"	m	struct:__anon17::__anon18
+AckRequest	server-coordinator/include/APS.h	/^        char AckRequest:1;$/;"	m	struct:__anon2::__anon3
+AddDeviceInList	client-enddevice/source/nwk.c	/^void AddDeviceInList( int id, char ip[] )$/;"	f
+AddDeviceInList	server-coordinator/source/nwk.c	/^void AddDeviceInList( int id, char ip[] )$/;"	f
+BIN_DIR	client-enddevice/Makefile	/^BIN_DIR = $(PWD)\/bin$/;"	m
+BIN_DIR	server-coordinator/Makefile	/^BIN_DIR = $(PWD)\/bin$/;"	m
+BulbData	client-enddevice/include/myutility.h	/^}BulbData;$/;"	t	typeref:struct:__anon29
+BulbData	server-coordinator/include/myutility.h	/^}BulbData;$/;"	t	typeref:struct:__anon14
+CC	client-enddevice/Makefile	/^CC = gcc$/;"	m
+CC	server-coordinator/Makefile	/^CC = gcc$/;"	m
+CLIENT_TO_SERVER	client-enddevice/include/frame_structure.h	/^	CLIENT_TO_SERVER				=0b00000000,$/;"	e	enum:__anon27
+CLIENT_TO_SERVER	server-coordinator/include/frame_structure.h	/^	CLIENT_TO_SERVER					=0b00000000,$/;"	e	enum:__anon12
+CLUSTER_COMMAND_H	client-enddevice/include/cluster_command.h	20;"	d
+CLUSTER_COMMAND_H	server-coordinator/include/cluster_command.h	20;"	d
+CLUSTER_IDENTIFIER	client-enddevice/source/aps.c	24;"	d	file:
+CLUSTER_IDENTIFIER	server-coordinator/source/aps.c	24;"	d	file:
+CLUSTER_ID_H	client-enddevice/include/cluster_id.h	18;"	d
+CLUSTER_ID_H	server-coordinator/include/cluster_id.h	18;"	d
+CONFIGURE_REPORTING_ID	client-enddevice/include/frame_structure.h	/^	CONFIGURE_REPORTING_ID				= 0X06,$/;"	e	enum:__anon26
+CONFIGURE_REPORTING_ID	server-coordinator/include/frame_structure.h	/^	CONFIGURE_REPORTING_ID						= 0X06,$/;"	e	enum:__anon11
+CONFIGURE_REPORTING_RESPONSE_ID	client-enddevice/include/frame_structure.h	/^	CONFIGURE_REPORTING_RESPONSE_ID			= 0X07,$/;"	e	enum:__anon26
+CONFIGURE_REPORTING_RESPONSE_ID	server-coordinator/include/frame_structure.h	/^	CONFIGURE_REPORTING_RESPONSE_ID				= 0X07,$/;"	e	enum:__anon11
+ClientInit	client-enddevice/source/nwk.c	/^int ClientInit( void )$/;"	f
+ClientInit	server-coordinator/source/nwk.c	/^int ClientInit( void )$/;"	f
+ClusterId	client-enddevice/include/APS.h	/^	uint16_t ClusterId;$/;"	m	struct:DATA_Request
+ClusterId	client-enddevice/include/APS.h	/^	uint16_t ClusterId;$/;"	m	struct:__anon19
+ClusterId	server-coordinator/include/APS.h	/^    uint16_t ClusterId;$/;"	m	struct:DATA_Request
+ClusterId	server-coordinator/include/APS.h	/^    uint16_t ClusterId;$/;"	m	struct:__anon4
+ControlField	client-enddevice/include/APS.h	/^	FrameControl_t ControlField;$/;"	m	struct:APS_Frame
+ControlField	server-coordinator/include/APS.h	/^    FrameControl_t ControlField;$/;"	m	struct:APS_Frame
+DATA_Request	client-enddevice/include/APS.h	/^struct DATA_Request$/;"	s
+DATA_Request	server-coordinator/include/APS.h	/^struct DATA_Request$/;"	s
+DEBUG	client-enddevice/include/global.h	20;"	d
+DEBUG	server-coordinator/include/global.h	20;"	d
+DEFAULT_RESPONSE_ID	client-enddevice/include/frame_structure.h	/^	DEFAULT_RESPONSE_ID				= 0X0b,$/;"	e	enum:__anon26
+DEFAULT_RESPONSE_ID	server-coordinator/include/frame_structure.h	/^	DEFAULT_RESPONSE_ID							= 0X0b,$/;"	e	enum:__anon11
+DELIVERY_MODE_BROADCAST	client-enddevice/source/aps.c	36;"	d	file:
+DELIVERY_MODE_BROADCAST	server-coordinator/source/aps.c	36;"	d	file:
+DELIVERY_MODE_GROUP	client-enddevice/source/aps.c	37;"	d	file:
+DELIVERY_MODE_GROUP	server-coordinator/source/aps.c	37;"	d	file:
+DELIVERY_MODE_INDIRECT	client-enddevice/source/aps.c	35;"	d	file:
+DELIVERY_MODE_INDIRECT	server-coordinator/source/aps.c	35;"	d	file:
+DELIVERY_MODE_UNICAST	client-enddevice/source/aps.c	34;"	d	file:
+DELIVERY_MODE_UNICAST	server-coordinator/source/aps.c	34;"	d	file:
+DESTINATION_ENDPOINT	client-enddevice/source/aps.c	22;"	d	file:
+DESTINATION_ENDPOINT	server-coordinator/source/aps.c	22;"	d	file:
+DISABLE_DEFAULT_RESPONSE	client-enddevice/include/frame_structure.h	/^	DISABLE_DEFAULT_RESPONSE			=0b00010000,$/;"	e	enum:__anon27
+DISABLE_DEFAULT_RESPONSE	server-coordinator/include/frame_structure.h	/^	DISABLE_DEFAULT_RESPONSE			=0b00010000,$/;"	e	enum:__anon12
+DISCOVER_ATTRIBUTE_ID	client-enddevice/include/frame_structure.h	/^	DISCOVER_ATTRIBUTE_ID				= 0X0c,$/;"	e	enum:__anon26
+DISCOVER_ATTRIBUTE_ID	server-coordinator/include/frame_structure.h	/^	DISCOVER_ATTRIBUTE_ID						= 0X0c,$/;"	e	enum:__anon11
+DISCOVER_ATTRIBUTE_RESPONSE_ID	client-enddevice/include/frame_structure.h	/^	DISCOVER_ATTRIBUTE_RESPONSE_ID			= 0X0d,$/;"	e	enum:__anon26
+DISCOVER_ATTRIBUTE_RESPONSE_ID	server-coordinator/include/frame_structure.h	/^	DISCOVER_ATTRIBUTE_RESPONSE_ID				= 0X0d,$/;"	e	enum:__anon11
+DataIndication_t	client-enddevice/include/APS.h	/^}PACKED DataIndication_t;$/;"	t	typeref:struct:__anon19
+DataIndication_t	server-coordinator/include/APS.h	/^}PACKED DataIndication_t;$/;"	t	typeref:struct:__anon4
+DeliveryMode	client-enddevice/include/APS.h	/^		char DeliveryMode:2;$/;"	m	struct:__anon17::__anon18
+DeliveryMode	server-coordinator/include/APS.h	/^        char DeliveryMode:2;$/;"	m	struct:__anon2::__anon3
+DeviceList	client-enddevice/source/nwk.c	/^} DeviceList;$/;"	t	typeref:struct:list	file:
+DeviceList	server-coordinator/source/nwk.c	/^} DeviceList;$/;"	t	typeref:struct:list	file:
+DeviceRemove	server-coordinator/source/aps.c	/^void DeviceRemove( uint16_t device_ID )$/;"	f
+DeviceRemove_Handler	server-coordinator/source/nwk.c	/^void ( *DeviceRemove_Handler )( uint16_t ID );$/;"	v
+DstAddrMode	client-enddevice/include/APS.h	/^	uint8_t DstAddrMode;$/;"	m	struct:DATA_Request
+DstAddrMode	client-enddevice/include/APS.h	/^	uint8_t DstAddrMode;$/;"	m	struct:__anon19
+DstAddrMode	server-coordinator/include/APS.h	/^    uint8_t DstAddrMode;$/;"	m	struct:DATA_Request
+DstAddrMode	server-coordinator/include/APS.h	/^    uint8_t DstAddrMode;$/;"	m	struct:__anon4
+DstAddress	client-enddevice/include/APS.h	/^	uint8_t DstAddress;	$/;"	m	struct:DATA_Request
+DstAddress	client-enddevice/include/APS.h	/^	uint8_t DstAddress;	$/;"	m	struct:__anon19
+DstAddress	server-coordinator/include/APS.h	/^    uint8_t DstAddress;	$/;"	m	struct:DATA_Request
+DstAddress	server-coordinator/include/APS.h	/^    uint8_t DstAddress;	$/;"	m	struct:__anon4
+DstEndpoint	client-enddevice/include/APS.h	/^	uint8_t DstEndpoint;$/;"	m	struct:DATA_Request
+DstEndpoint	client-enddevice/include/APS.h	/^	uint8_t DstEndpoint;$/;"	m	struct:__anon19
+DstEndpoint	server-coordinator/include/APS.h	/^    uint8_t DstEndpoint;$/;"	m	struct:DATA_Request
+DstEndpoint	server-coordinator/include/APS.h	/^    uint8_t DstEndpoint;$/;"	m	struct:__anon4
+ENABLE_DEFAULT_RESPONSE	client-enddevice/include/frame_structure.h	/^	ENABLE_DEFAULT_RESPONSE				=0b00000000,$/;"	e	enum:__anon27
+ENABLE_DEFAULT_RESPONSE	server-coordinator/include/frame_structure.h	/^	ENABLE_DEFAULT_RESPONSE				=0b00000000,$/;"	e	enum:__anon12
+EXCLUDE_MANUFACTURER_SPECIFIC	client-enddevice/include/frame_structure.h	/^	EXCLUDE_MANUFACTURER_SPECIFIC			=0b00000000,$/;"	e	enum:__anon27
+EXCLUDE_MANUFACTURER_SPECIFIC	server-coordinator/include/frame_structure.h	/^	EXCLUDE_MANUFACTURER_SPECIFIC		=0b00000000,$/;"	e	enum:__anon12
+EXE	client-enddevice/Makefile	/^EXE = client $/;"	m
+EXE	server-coordinator/Makefile	/^EXE = server $/;"	m
+EXTENDED_HEADER_ABSENT	client-enddevice/source/aps.c	45;"	d	file:
+EXTENDED_HEADER_ABSENT	server-coordinator/source/aps.c	45;"	d	file:
+EXTENDED_HEADER_PRESENT	client-enddevice/source/aps.c	44;"	d	file:
+EXTENDED_HEADER_PRESENT	server-coordinator/source/aps.c	44;"	d	file:
+ExtendedHeaderPresent	client-enddevice/include/APS.h	/^		char ExtendedHeaderPresent:1;$/;"	m	struct:__anon17::__anon18
+ExtendedHeaderPresent	server-coordinator/include/APS.h	/^        char ExtendedHeaderPresent:1;$/;"	m	struct:__anon2::__anon3
+FRAMESTRUCTURE_H	client-enddevice/include/frame_structure.h	18;"	d
+FRAMESTRUCTURE_H	server-coordinator/include/frame_structure.h	18;"	d
+FRAME_TYPE	client-enddevice/source/aps.c	21;"	d	file:
+FRAME_TYPE	server-coordinator/source/aps.c	21;"	d	file:
+FRAME_TYPE_ACK	client-enddevice/source/aps.c	33;"	d	file:
+FRAME_TYPE_ACK	server-coordinator/source/aps.c	33;"	d	file:
+FRAME_TYPE_CLUSTER_SPECIFIC	client-enddevice/include/frame_structure.h	/^	FRAME_TYPE_CLUSTER_SPECIFIC			=0b00000001,$/;"	e	enum:__anon27
+FRAME_TYPE_CLUSTER_SPECIFIC	server-coordinator/include/frame_structure.h	/^	FRAME_TYPE_CLUSTER_SPECIFIC			=0b00000001,$/;"	e	enum:__anon12
+FRAME_TYPE_COMMAND	client-enddevice/source/aps.c	32;"	d	file:
+FRAME_TYPE_COMMAND	server-coordinator/source/aps.c	32;"	d	file:
+FRAME_TYPE_DATA	client-enddevice/source/aps.c	31;"	d	file:
+FRAME_TYPE_DATA	server-coordinator/source/aps.c	31;"	d	file:
+FRAME_TYPE_ENTIRE_PROFILE	client-enddevice/include/frame_structure.h	/^	FRAME_TYPE_ENTIRE_PROFILE			=0b00000000,$/;"	e	enum:__anon27
+FRAME_TYPE_ENTIRE_PROFILE	server-coordinator/include/frame_structure.h	/^	FRAME_TYPE_ENTIRE_PROFILE			=0b00000000,$/;"	e	enum:__anon12
+FindId	client-enddevice/source/nwk.c	/^int FindId()$/;"	f
+FindId	server-coordinator/source/nwk.c	/^int FindId()$/;"	f
+FrameControl_t	client-enddevice/include/APS.h	/^}PACKED FrameControl_t;$/;"	t	typeref:union:__anon17
+FrameControl_t	server-coordinator/include/APS.h	/^}PACKED FrameControl_t;$/;"	t	typeref:union:__anon2
+FrameType	client-enddevice/include/APS.h	/^		char FrameType:2;$/;"	m	struct:__anon17::__anon18
+FrameType	server-coordinator/include/APS.h	/^        char FrameType:2;$/;"	m	struct:__anon2::__anon3
+GLOBAL_H	client-enddevice/include/global.h	18;"	d
+GLOBAL_H	server-coordinator/include/global.h	18;"	d
+GROUP_ADDRESS	client-enddevice/source/aps.c	23;"	d	file:
+GROUP_ADDRESS	server-coordinator/source/aps.c	23;"	d	file:
+GiveId	client-enddevice/source/nwk.c	/^uint16_t GiveId(int client_socket)$/;"	f
+GiveId	server-coordinator/source/nwk.c	/^uint16_t GiveId(int client_socket)$/;"	f
+INC	client-enddevice/Makefile	/^INC = $(PWD)\/include$/;"	m
+INC	server-coordinator/Makefile	/^INC = $(PWD)\/include$/;"	m
+INCLUDE_MANUFACTURER_SPECIFIC	client-enddevice/include/frame_structure.h	/^	INCLUDE_MANUFACTURER_SPECIFIC			=0b00000100,$/;"	e	enum:__anon27
+INCLUDE_MANUFACTURER_SPECIFIC	server-coordinator/include/frame_structure.h	/^	INCLUDE_MANUFACTURER_SPECIFIC		=0b00000100,$/;"	e	enum:__anon12
+INVALID_ATTRIBUTE	client-enddevice/include/global.h	53;"	d
+INVALID_ATTRIBUTE	server-coordinator/include/global.h	53;"	d
+INVALID_CLUSTERID	client-enddevice/include/global.h	54;"	d
+INVALID_CLUSTERID	server-coordinator/include/global.h	54;"	d
+LD_FLAG	client-enddevice/Makefile	/^LD_FLAG = -lpthread$/;"	m
+LD_FLAG	server-coordinator/Makefile	/^LD_FLAG = -lpthread$/;"	m
+LinkQuality	client-enddevice/include/APS.h	/^	uint8_t LinkQuality;$/;"	m	struct:__anon19
+LinkQuality	server-coordinator/include/APS.h	/^    uint8_t LinkQuality;$/;"	m	struct:__anon4
+MAXDEVICE	client-enddevice/source/nwk.c	25;"	d	file:
+MAXDEVICE	server-coordinator/source/nwk.c	27;"	d	file:
+MAXSIZE	client-enddevice/source/nwk.c	24;"	d	file:
+MAXSIZE	server-coordinator/source/nwk.c	26;"	d	file:
+MCPS_ZCL_Handler	client-enddevice/source/nwk.c	/^void (*MCPS_ZCL_Handler)( NwkMsg_t );$/;"	v
+MCPS_ZCL_Handler	server-coordinator/source/nwk.c	/^void (*MCPS_ZCL_Handler)( NwkMsg_t );$/;"	v
+MCPS_ZCL_SapHandler	client-enddevice/source/aps.c	/^void MCPS_ZCL_SapHandler( NwkMsg_t msg )$/;"	f
+MCPS_ZCL_SapHandler	server-coordinator/source/aps.c	/^void MCPS_ZCL_SapHandler( NwkMsg_t msg )$/;"	f
+MESSAGE_LENGTH	client-enddevice/include/zdo.h	25;"	d
+MESSAGE_LENGTH	server-coordinator/include/zdo.h	27;"	d
+MESSAGE_TYPE	client-enddevice/include/zdo.h	24;"	d
+MESSAGE_TYPE	server-coordinator/include/zdo.h	26;"	d
+MSG_DEVICE_ANNOUNCE	client-enddevice/include/zdo.h	/^	MSG_DEVICE_ANNOUNCE                =   0x004D,$/;"	e	enum:__anon20
+MSG_DEVICE_ANNOUNCE	server-coordinator/include/zdo.h	/^    MSG_DEVICE_ANNOUNCE                =   0x004D,$/;"	e	enum:__anon5
+MSG_SIMPLE_DESCRIPTOR_REQUEST	client-enddevice/include/zdo.h	/^	MSG_SIMPLE_DESCRIPTOR_REQUEST      =   0x0043,    $/;"	e	enum:__anon20
+MSG_SIMPLE_DESCRIPTOR_REQUEST	server-coordinator/include/zdo.h	/^    MSG_SIMPLE_DESCRIPTOR_REQUEST      =   0x0043,    $/;"	e	enum:__anon5
+MSG_SIMPLE_DESCRIPTOR_RESPONSE	client-enddevice/include/zdo.h	/^	MSG_SIMPLE_DESCRIPTOR_RESPONSE     =   0x8043,$/;"	e	enum:__anon20
+MSG_SIMPLE_DESCRIPTOR_RESPONSE	server-coordinator/include/zdo.h	/^    MSG_SIMPLE_DESCRIPTOR_RESPONSE     =   0x8043,$/;"	e	enum:__anon5
+MSGfromAPStoAPP	client-enddevice/source/main.c	/^void MSGfromAPStoAPP( DataIndication_t  Msg )$/;"	f
+MSGfromAPStoAPP	server-coordinator/source/main.c	/^void MSGfromAPStoAPP( DataIndication_t Msg )$/;"	f
+MsgType	client-enddevice/include/zdo.h	/^} MsgType;$/;"	t	typeref:enum:__anon20
+MsgType	server-coordinator/include/zdo.h	/^} MsgType;$/;"	t	typeref:enum:__anon5
+NO_ACK	client-enddevice/include/APS.h	/^	NO_ACK,$/;"	e	enum:__anon16
+NO_ACK	server-coordinator/include/APS.h	/^    NO_ACK,$/;"	e	enum:__anon1
+NO_SORT_ADDRESS	client-enddevice/include/APS.h	/^	NO_SORT_ADDRESS,$/;"	e	enum:__anon16
+NO_SORT_ADDRESS	server-coordinator/include/APS.h	/^    NO_SORT_ADDRESS,$/;"	e	enum:__anon1
+NWK_FAILED	client-enddevice/source/nwk.c	/^	NWK_FAILED,$/;"	e	enum:__anon30	file:
+NWK_FAILED	server-coordinator/source/nwk.c	/^    NWK_FAILED,$/;"	e	enum:__anon15	file:
+NWK_Init	client-enddevice/source/nwk.c	/^int NWK_Init( int type )$/;"	f
+NWK_Init	server-coordinator/source/nwk.c	/^int NWK_Init( int type )$/;"	f
+NWK_Respnose_t	client-enddevice/source/nwk.c	/^}NWK_Respnose_t;$/;"	t	typeref:enum:__anon30	file:
+NWK_Respnose_t	server-coordinator/source/nwk.c	/^}NWK_Respnose_t;$/;"	t	typeref:enum:__anon15	file:
+NWK_SUCCESS	client-enddevice/source/nwk.c	/^	NWK_SUCCESS,$/;"	e	enum:__anon30	file:
+NWK_SUCCESS	server-coordinator/source/nwk.c	/^    NWK_SUCCESS,$/;"	e	enum:__anon15	file:
+NW_RegisterSapHandlers	client-enddevice/source/nwk.c	/^void NW_RegisterSapHandlers(void (*MCPS_ZCL_SapHandler)( NwkMsg_t msg ))$/;"	f
+NW_RegisterSapHandlers	server-coordinator/source/nwk.c	/^void NW_RegisterSapHandlers(void (*MCPS_ZCL_SapHandler)( NwkMsg_t msg ), void ( *DeviceRemove )( uint16_t ID ))$/;"	f
+NwkMsg_t	client-enddevice/include/NWK.h	/^}NwkMsg_t;$/;"	t	typeref:struct:__anon21
+NwkMsg_t	server-coordinator/include/NWK.h	/^}NwkMsg_t;$/;"	t	typeref:struct:__anon6
+ON_OFF_H	client-enddevice/include/on_off.h	18;"	d
+ON_OFF_H	server-coordinator/include/on_off.h	18;"	d
+PACKED	client-enddevice/include/APS.h	/^}PACKED ;$/;"	v	typeref:struct:DATA_Request
+PACKED	client-enddevice/include/APS.h	30;"	d
+PACKED	client-enddevice/include/zdo.h	23;"	d
+PACKED	client-enddevice/source/aps.c	18;"	d	file:
+PACKED	server-coordinator/include/APS.h	/^}PACKED ;$/;"	v	typeref:struct:DATA_Request
+PACKED	server-coordinator/include/APS.h	31;"	d
+PACKED	server-coordinator/include/zdo.h	24;"	d
+PACKED	server-coordinator/source/aps.c	18;"	d	file:
+PACKET	client-enddevice/source/aps.c	28;"	d	file:
+PACKET	server-coordinator/source/aps.c	28;"	d	file:
+PRINTD	client-enddevice/include/global.h	22;"	d
+PRINTD	client-enddevice/include/global.h	24;"	d
+PRINTD	server-coordinator/include/global.h	22;"	d
+PRINTD	server-coordinator/include/global.h	24;"	d
+PROFILE_IDENTIFIER	client-enddevice/source/aps.c	25;"	d	file:
+PROFILE_IDENTIFIER	server-coordinator/source/aps.c	25;"	d	file:
+PWD	client-enddevice/Makefile	/^PWD = `pwd`$/;"	m
+PWD	server-coordinator/Makefile	/^PWD = `pwd`$/;"	m
+ProfileId	client-enddevice/include/APS.h	/^	uint16_t ProfileId;$/;"	m	struct:DATA_Request
+ProfileId	client-enddevice/include/APS.h	/^	uint16_t ProfileId;$/;"	m	struct:__anon19
+ProfileId	server-coordinator/include/APS.h	/^    uint16_t ProfileId;$/;"	m	struct:DATA_Request
+ProfileId	server-coordinator/include/APS.h	/^    uint16_t ProfileId;$/;"	m	struct:__anon4
+QUEUESIZE	client-enddevice/source/aps.c	19;"	d	file:
+QUEUESIZE	server-coordinator/source/aps.c	19;"	d	file:
+RADIUS	client-enddevice/source/aps.c	29;"	d	file:
+RADIUS	server-coordinator/source/aps.c	29;"	d	file:
+READ_ATTRIBUTE_ID	client-enddevice/include/frame_structure.h	/^	READ_ATTRIBUTE_ID				= 0X00,$/;"	e	enum:__anon26
+READ_ATTRIBUTE_ID	server-coordinator/include/frame_structure.h	/^	READ_ATTRIBUTE_ID							= 0X00,$/;"	e	enum:__anon11
+READ_ATTRIBUTE_REQUEST_H	client-enddevice/include/read_attribute_request.h	19;"	d
+READ_ATTRIBUTE_REQUEST_H	server-coordinator/include/read_attribute_request.h	19;"	d
+READ_ATTRIBUTE_RESPONSE_H	client-enddevice/include/read_attribute_response.h	19;"	d
+READ_ATTRIBUTE_RESPONSE_H	server-coordinator/include/read_attribute_response.h	19;"	d
+READ_ATTRIBUTE_RESPONSE_ID	client-enddevice/include/frame_structure.h	/^	READ_ATTRIBUTE_RESPONSE_ID			= 0X01,$/;"	e	enum:__anon26
+READ_ATTRIBUTE_RESPONSE_ID	server-coordinator/include/frame_structure.h	/^	READ_ATTRIBUTE_RESPONSE_ID					= 0X01,$/;"	e	enum:__anon11
+READ_ATTRIBUTE_STRUCTURED_ID	client-enddevice/include/frame_structure.h	/^	READ_ATTRIBUTE_STRUCTURED_ID			= 0X0e,$/;"	e	enum:__anon26
+READ_ATTRIBUTE_STRUCTURED_ID	server-coordinator/include/frame_structure.h	/^	READ_ATTRIBUTE_STRUCTURED_ID				= 0X0e,$/;"	e	enum:__anon11
+READ_REPORTING_CONFIGURATION_ID	client-enddevice/include/frame_structure.h	/^	READ_REPORTING_CONFIGURATION_ID			= 0X08,$/;"	e	enum:__anon26
+READ_REPORTING_CONFIGURATION_ID	server-coordinator/include/frame_structure.h	/^	READ_REPORTING_CONFIGURATION_ID				= 0X08,$/;"	e	enum:__anon11
+READ_REPORTING_CONFIGURATION_RESPONSE_ID	client-enddevice/include/frame_structure.h	/^	READ_REPORTING_CONFIGURATION_RESPONSE_ID	= 0X09,$/;"	e	enum:__anon26
+READ_REPORTING_CONFIGURATION_RESPONSE_ID	server-coordinator/include/frame_structure.h	/^	READ_REPORTING_CONFIGURATION_RESPONSE_ID	= 0X09,$/;"	e	enum:__anon11
+REPORT_ATTRIBUTES_ID	client-enddevice/include/frame_structure.h	/^	REPORT_ATTRIBUTES_ID				= 0X0a,$/;"	e	enum:__anon26
+REPORT_ATTRIBUTES_ID	server-coordinator/include/frame_structure.h	/^	REPORT_ATTRIBUTES_ID						= 0X0a,$/;"	e	enum:__anon11
+RadiusCounter	client-enddevice/include/APS.h	/^	uint8_t RadiusCounter;$/;"	m	struct:DATA_Request
+RadiusCounter	server-coordinator/include/APS.h	/^    uint8_t RadiusCounter;$/;"	m	struct:DATA_Request
+RecvFromClient	client-enddevice/source/nwk.c	/^void *RecvFromClient( void *data )$/;"	f
+RecvFromClient	server-coordinator/source/nwk.c	/^void *RecvFromClient( void *data )$/;"	f
+RecvFromServer	client-enddevice/source/nwk.c	/^void *RecvFromServer( void *data )$/;"	f
+RecvFromServer	server-coordinator/source/nwk.c	/^void *RecvFromServer( void *data )$/;"	f
+RemoveDeviceFromList	client-enddevice/source/nwk.c	/^void RemoveDeviceFromList( int client_sock )$/;"	f
+RemoveDeviceFromList	server-coordinator/source/nwk.c	/^void RemoveDeviceFromList( int client_sock )$/;"	f
+RxTime	client-enddevice/include/APS.h	/^	uint8_t RxTime;$/;"	m	struct:__anon19
+RxTime	server-coordinator/include/APS.h	/^    uint8_t RxTime;$/;"	m	struct:__anon4
+SECURITY_FAIL	client-enddevice/include/APS.h	/^	SECURITY_FAIL,$/;"	e	enum:__anon16
+SECURITY_FAIL	server-coordinator/include/APS.h	/^    SECURITY_FAIL,$/;"	e	enum:__anon1
+SECURITY_SUB_FIELD_DISABLE	client-enddevice/source/aps.c	40;"	d	file:
+SECURITY_SUB_FIELD_DISABLE	server-coordinator/source/aps.c	40;"	d	file:
+SECURITY_SUB_FIELD_ENABLE	client-enddevice/source/aps.c	41;"	d	file:
+SECURITY_SUB_FIELD_ENABLE	server-coordinator/source/aps.c	41;"	d	file:
+SERVER_TO_CLIENT	client-enddevice/include/frame_structure.h	/^	SERVER_TO_CLIENT				=0b00001000,$/;"	e	enum:__anon27
+SERVER_TO_CLIENT	server-coordinator/include/frame_structure.h	/^	SERVER_TO_CLIENT					=0b00001000,$/;"	e	enum:__anon12
+SOURCE_ENDPOINT	client-enddevice/source/aps.c	26;"	d	file:
+SOURCE_ENDPOINT	server-coordinator/source/aps.c	26;"	d	file:
+SRC_DIR	client-enddevice/Makefile	/^SRC_DIR = $(PWD)\/source$/;"	m
+SRC_DIR	server-coordinator/Makefile	/^SRC_DIR = $(PWD)\/source$/;"	m
+SUCCESS	client-enddevice/include/APS.h	/^	SUCCESS,$/;"	e	enum:__anon16
+SUCCESS	server-coordinator/include/APS.h	/^    SUCCESS,$/;"	e	enum:__anon1
+SUCCESSFUL	client-enddevice/include/global.h	49;"	d
+SUCCESSFUL	server-coordinator/include/global.h	49;"	d
+SUPPORTED_CLUSTER	client-enddevice/include/cluster_id.h	23;"	d
+SUPPORTED_CLUSTER	server-coordinator/include/cluster_id.h	23;"	d
+Security	client-enddevice/include/APS.h	/^		char Security:1;    $/;"	m	struct:__anon17::__anon18
+Security	server-coordinator/include/APS.h	/^        char Security:1;    $/;"	m	struct:__anon2::__anon3
+ServerInit	client-enddevice/source/nwk.c	/^void *ServerInit( void *msg )$/;"	f
+ServerInit	server-coordinator/source/nwk.c	/^void *ServerInit( void *msg )$/;"	f
+SrcAddress	client-enddevice/include/APS.h	/^	uint8_t SrcAddress;	$/;"	m	struct:__anon19
+SrcAddress	server-coordinator/include/APS.h	/^    uint8_t SrcAddress;	$/;"	m	struct:__anon4
+SrcEndpoint	client-enddevice/include/APS.h	/^	uint8_t SrcEndpoint;$/;"	m	struct:DATA_Request
+SrcEndpoint	client-enddevice/include/APS.h	/^	uint8_t SrcEndpoint;$/;"	m	struct:__anon19
+SrcEndpoint	server-coordinator/include/APS.h	/^    uint8_t SrcEndpoint;$/;"	m	struct:DATA_Request
+SrcEndpoint	server-coordinator/include/APS.h	/^    uint8_t SrcEndpoint;$/;"	m	struct:__anon4
+Status	client-enddevice/include/APS.h	/^	StatusConfirm_e Status;    $/;"	m	struct:__anon19
+Status	server-coordinator/include/APS.h	/^    StatusConfirm_e Status;    $/;"	m	struct:__anon4
+StatusConfirm_e	client-enddevice/include/APS.h	/^}StatusConfirm_e; $/;"	t	typeref:enum:__anon16
+StatusConfirm_e	server-coordinator/include/APS.h	/^}StatusConfirm_e; $/;"	t	typeref:enum:__anon1
+TxOptions	client-enddevice/include/APS.h	/^	uint8_t TxOptions;$/;"	m	struct:DATA_Request
+TxOptions	server-coordinator/include/APS.h	/^    uint8_t TxOptions;$/;"	m	struct:DATA_Request
+UNSUCCESSFUL	client-enddevice/include/global.h	50;"	d
+UNSUCCESSFUL	server-coordinator/include/global.h	50;"	d
+UNSUPPORTED_ATTRIBUTE	client-enddevice/include/global.h	51;"	d
+UNSUPPORTED_ATTRIBUTE	server-coordinator/include/global.h	51;"	d
+VALID_DATA	client-enddevice/include/global.h	52;"	d
+VALID_DATA	server-coordinator/include/global.h	52;"	d
+WRITE_ATTRIBUTE_ID	client-enddevice/include/frame_structure.h	/^	WRITE_ATTRIBUTE_ID				= 0X02,$/;"	e	enum:__anon26
+WRITE_ATTRIBUTE_ID	server-coordinator/include/frame_structure.h	/^	WRITE_ATTRIBUTE_ID							= 0X02,$/;"	e	enum:__anon11
+WRITE_ATTRIBUTE_NO_RESPONSE_ID	client-enddevice/include/frame_structure.h	/^	WRITE_ATTRIBUTE_NO_RESPONSE_ID			= 0X05,$/;"	e	enum:__anon26
+WRITE_ATTRIBUTE_NO_RESPONSE_ID	server-coordinator/include/frame_structure.h	/^	WRITE_ATTRIBUTE_NO_RESPONSE_ID				= 0X05,$/;"	e	enum:__anon11
+WRITE_ATTRIBUTE_RESPONSE_ID	client-enddevice/include/frame_structure.h	/^	WRITE_ATTRIBUTE_RESPONSE_ID			= 0X04,$/;"	e	enum:__anon26
+WRITE_ATTRIBUTE_RESPONSE_ID	server-coordinator/include/frame_structure.h	/^	WRITE_ATTRIBUTE_RESPONSE_ID					= 0X04,$/;"	e	enum:__anon11
+WRITE_ATTRIBUTE_STRUCTURED_ID	client-enddevice/include/frame_structure.h	/^	WRITE_ATTRIBUTE_STRUCTURED_ID			= 0X0f,$/;"	e	enum:__anon26
+WRITE_ATTRIBUTE_STRUCTURED_ID	server-coordinator/include/frame_structure.h	/^	WRITE_ATTRIBUTE_STRUCTURED_ID				= 0X0f,$/;"	e	enum:__anon11
+WRITE_ATTRIBUTE_STRUCTURED_RESPONSE_ID	client-enddevice/include/frame_structure.h	/^	WRITE_ATTRIBUTE_STRUCTURED_RESPONSE_ID		= 0X10$/;"	e	enum:__anon26
+WRITE_ATTRIBUTE_STRUCTURED_RESPONSE_ID	server-coordinator/include/frame_structure.h	/^	WRITE_ATTRIBUTE_STRUCTURED_RESPONSE_ID		= 0X10$/;"	e	enum:__anon11
+WRITE_ATTRIBUTE_UNDIVIDED_ID	client-enddevice/include/frame_structure.h	/^	WRITE_ATTRIBUTE_UNDIVIDED_ID			= 0X03,$/;"	e	enum:__anon26
+WRITE_ATTRIBUTE_UNDIVIDED_ID	server-coordinator/include/frame_structure.h	/^	WRITE_ATTRIBUTE_UNDIVIDED_ID				= 0X03,$/;"	e	enum:__anon11
+ZCL_ATTRIBUTE_CLUSTER_SPECIFIC_ONOFF_OFF	client-enddevice/include/on_off.h	/^	ZCL_ATTRIBUTE_CLUSTER_SPECIFIC_ONOFF_OFF			= 0x00,$/;"	e	enum:__anon25
+ZCL_ATTRIBUTE_CLUSTER_SPECIFIC_ONOFF_OFF	server-coordinator/include/on_off.h	/^	ZCL_ATTRIBUTE_CLUSTER_SPECIFIC_ONOFF_OFF			= 0x00,$/;"	e	enum:__anon10
+ZCL_ATTRIBUTE_CLUSTER_SPECIFIC_ONOFF_ON	client-enddevice/include/on_off.h	/^	ZCL_ATTRIBUTE_CLUSTER_SPECIFIC_ONOFF_ON				= 0x01,$/;"	e	enum:__anon25
+ZCL_ATTRIBUTE_CLUSTER_SPECIFIC_ONOFF_ON	server-coordinator/include/on_off.h	/^	ZCL_ATTRIBUTE_CLUSTER_SPECIFIC_ONOFF_ON				= 0x01,$/;"	e	enum:__anon10
+ZCL_ATTRIBUTE_CLUSTER_SPECIFIC_ONOFF_TOGGLE	client-enddevice/include/on_off.h	/^	ZCL_ATTRIBUTE_CLUSTER_SPECIFIC_ONOFF_TOGGLE			= 0x02,$/;"	e	enum:__anon25
+ZCL_ATTRIBUTE_CLUSTER_SPECIFIC_ONOFF_TOGGLE	server-coordinator/include/on_off.h	/^	ZCL_ATTRIBUTE_CLUSTER_SPECIFIC_ONOFF_TOGGLE			= 0x02,$/;"	e	enum:__anon10
+ZCL_ATTRIBUTE_DATATYPE_ONOFF_ONOFF	client-enddevice/include/on_off.h	/^	ZCL_ATTRIBUTE_DATATYPE_ONOFF_ONOFF		= 0x10,$/;"	e	enum:__anon23
+ZCL_ATTRIBUTE_DATATYPE_ONOFF_ONOFF	server-coordinator/include/on_off.h	/^	ZCL_ATTRIBUTE_DATATYPE_ONOFF_ONOFF		= 0x10,$/;"	e	enum:__anon8
+ZCL_ATTRIBUTE_ID_ONOFF_ONOFF	client-enddevice/include/on_off.h	/^	ZCL_ATTRIBUTE_ID_ONOFF_ONOFF			= 0x0000,$/;"	e	enum:__anon22
+ZCL_ATTRIBUTE_ID_ONOFF_ONOFF	server-coordinator/include/on_off.h	/^	ZCL_ATTRIBUTE_ID_ONOFF_ONOFF			= 0x0000,$/;"	e	enum:__anon7
+ZCL_ATTRIBUTE_SIZE_ONOFF_ONOFF	client-enddevice/include/on_off.h	/^	ZCL_ATTRIBUTE_SIZE_ONOFF_ONOFF			= 1,$/;"	e	enum:__anon24
+ZCL_ATTRIBUTE_SIZE_ONOFF_ONOFF	server-coordinator/include/on_off.h	/^	ZCL_ATTRIBUTE_SIZE_ONOFF_ONOFF			= 1,$/;"	e	enum:__anon9
+ZCL_CLUSTERID_ALARM	client-enddevice/include/cluster_id.h	/^	ZCL_CLUSTERID_ALARM			= 0x0009,$/;"	e	enum:__anon28
+ZCL_CLUSTERID_ALARM	server-coordinator/include/cluster_id.h	/^	ZCL_CLUSTERID_ALARM						= 0x0009,$/;"	e	enum:__anon13
+ZCL_CLUSTERID_ANALOG_INPUT	client-enddevice/include/cluster_id.h	/^	ZCL_CLUSTERID_ANALOG_INPUT		= 0x000c,$/;"	e	enum:__anon28
+ZCL_CLUSTERID_ANALOG_INPUT	server-coordinator/include/cluster_id.h	/^	ZCL_CLUSTERID_ANALOG_INPUT				= 0x000c,$/;"	e	enum:__anon13
+ZCL_CLUSTERID_ANALOG_OUTPUT	client-enddevice/include/cluster_id.h	/^	ZCL_CLUSTERID_ANALOG_OUTPUT		= 0x000d,$/;"	e	enum:__anon28
+ZCL_CLUSTERID_ANALOG_OUTPUT	server-coordinator/include/cluster_id.h	/^	ZCL_CLUSTERID_ANALOG_OUTPUT				= 0x000d,$/;"	e	enum:__anon13
+ZCL_CLUSTERID_BASIC	client-enddevice/include/cluster_id.h	/^	ZCL_CLUSTERID_BASIC 			= 0x0000,$/;"	e	enum:__anon28
+ZCL_CLUSTERID_BASIC	server-coordinator/include/cluster_id.h	/^	ZCL_CLUSTERID_BASIC 					= 0x0000,$/;"	e	enum:__anon13
+ZCL_CLUSTERID_BINARY_INPUT	client-enddevice/include/cluster_id.h	/^	ZCL_CLUSTERID_BINARY_INPUT		= 0x000f,$/;"	e	enum:__anon28
+ZCL_CLUSTERID_BINARY_INPUT	server-coordinator/include/cluster_id.h	/^	ZCL_CLUSTERID_BINARY_INPUT				= 0x000f,$/;"	e	enum:__anon13
+ZCL_CLUSTERID_BINARY_OUTPUT	client-enddevice/include/cluster_id.h	/^	ZCL_CLUSTERID_BINARY_OUTPUT		= 0x0010$/;"	e	enum:__anon28
+ZCL_CLUSTERID_BINARY_OUTPUT	server-coordinator/include/cluster_id.h	/^	ZCL_CLUSTERID_BINARY_OUTPUT				= 0x0010$/;"	e	enum:__anon13
+ZCL_CLUSTERID_COMMISIONING	client-enddevice/include/cluster_id.h	/^	ZCL_CLUSTERID_COMMISIONING		= 0x0015,$/;"	e	enum:__anon28
+ZCL_CLUSTERID_COMMISIONING	server-coordinator/include/cluster_id.h	/^	ZCL_CLUSTERID_COMMISIONING				= 0x0015,$/;"	e	enum:__anon13
+ZCL_CLUSTERID_DEVICE_TEMPERATURE	client-enddevice/include/cluster_id.h	/^	ZCL_CLUSTERID_DEVICE_TEMPERATURE	= 0x0002,$/;"	e	enum:__anon28
+ZCL_CLUSTERID_DEVICE_TEMPERATURE	server-coordinator/include/cluster_id.h	/^	ZCL_CLUSTERID_DEVICE_TEMPERATURE		= 0x0002,$/;"	e	enum:__anon13
+ZCL_CLUSTERID_IDENTIFY	client-enddevice/include/cluster_id.h	/^	ZCL_CLUSTERID_IDENTIFY			= 0x0003,$/;"	e	enum:__anon28
+ZCL_CLUSTERID_IDENTIFY	server-coordinator/include/cluster_id.h	/^	ZCL_CLUSTERID_IDENTIFY					= 0x0003,$/;"	e	enum:__anon13
+ZCL_CLUSTERID_LEVEL_CONTROL	client-enddevice/include/cluster_id.h	/^	ZCL_CLUSTERID_LEVEL_CONTROL		= 0x0008,$/;"	e	enum:__anon28
+ZCL_CLUSTERID_LEVEL_CONTROL	server-coordinator/include/cluster_id.h	/^	ZCL_CLUSTERID_LEVEL_CONTROL				= 0x0008,$/;"	e	enum:__anon13
+ZCL_CLUSTERID_LOCATION	client-enddevice/include/cluster_id.h	/^	ZCL_CLUSTERID_LOCATION			= 0x000b,$/;"	e	enum:__anon28
+ZCL_CLUSTERID_LOCATION	server-coordinator/include/cluster_id.h	/^	ZCL_CLUSTERID_LOCATION					= 0x000b,$/;"	e	enum:__anon13
+ZCL_CLUSTERID_ONOFF	client-enddevice/include/cluster_id.h	/^	ZCL_CLUSTERID_ONOFF			= 0x0006,$/;"	e	enum:__anon28
+ZCL_CLUSTERID_ONOFF	client-enddevice/include/zdo.h	26;"	d
+ZCL_CLUSTERID_ONOFF	server-coordinator/include/cluster_id.h	/^	ZCL_CLUSTERID_ONOFF						= 0x0006,$/;"	e	enum:__anon13
+ZCL_CLUSTERID_POWER	client-enddevice/include/cluster_id.h	/^	ZCL_CLUSTERID_POWER			= 0x0001,$/;"	e	enum:__anon28
+ZCL_CLUSTERID_POWER	server-coordinator/include/cluster_id.h	/^	ZCL_CLUSTERID_POWER						= 0x0001,$/;"	e	enum:__anon13
+ZCL_CLUSTERID_TIME	client-enddevice/include/cluster_id.h	/^	ZCL_CLUSTERID_TIME			= 0x000a,$/;"	e	enum:__anon28
+ZCL_CLUSTERID_TIME	server-coordinator/include/cluster_id.h	/^	ZCL_CLUSTERID_TIME						= 0x000a,$/;"	e	enum:__anon13
+ZCL_Cluster_Id	client-enddevice/include/cluster_id.h	/^} ZCL_Cluster_Id;$/;"	t	typeref:enum:__anon28
+ZCL_Cluster_Id	server-coordinator/include/cluster_id.h	/^} ZCL_Cluster_Id;$/;"	t	typeref:enum:__anon13
+ZCL_H	client-enddevice/include/zcl.h	19;"	d
+ZCL_H	server-coordinator/include/zcl.h	19;"	d
+ZDO_H	client-enddevice/include/zdo.h	18;"	d
+ZDO_H	server-coordinator/include/zdo.h	19;"	d
+ZDO_Start	client-enddevice/source/zdo.c	/^void ZDO_Start(int node)$/;"	f
+ZDO_Start	server-coordinator/source/zdo.c	/^void ZDO_Start(int node)$/;"	f
+_SimpleDescriptor	client-enddevice/include/zdo.h	/^struct _SimpleDescriptor$/;"	s
+_SimpleDescriptor	server-coordinator/include/zdo.h	/^struct _SimpleDescriptor$/;"	s
+__APS__	client-enddevice/include/APS.h	19;"	d
+__APS__	server-coordinator/include/APS.h	19;"	d
+__NWK__	client-enddevice/include/NWK.h	19;"	d
+__NWK__	server-coordinator/include/NWK.h	19;"	d
+act	client-enddevice/source/main.c	/^void act(struct command *cmd)$/;"	f
+annce	client-enddevice/include/zdo.h	/^struct annce$/;"	s
+annce	server-coordinator/include/zdo.h	/^struct annce                                                                $/;"	s
+attributeId	client-enddevice/include/global.h	/^        uint16_t attributeId;$/;"	m	struct:command
+attributeId	server-coordinator/include/global.h	/^        uint16_t attributeId;$/;"	m	struct:command
+attribute_data_type_onoff_cluster_e	client-enddevice/include/on_off.h	/^} attribute_data_type_onoff_cluster_e;$/;"	t	typeref:enum:__anon23
+attribute_data_type_onoff_cluster_e	server-coordinator/include/on_off.h	/^} attribute_data_type_onoff_cluster_e;$/;"	t	typeref:enum:__anon8
+attribute_id_onoff_cluster_e	client-enddevice/include/on_off.h	/^} attribute_id_onoff_cluster_e;$/;"	t	typeref:enum:__anon22
+attribute_id_onoff_cluster_e	server-coordinator/include/on_off.h	/^} attribute_id_onoff_cluster_e;$/;"	t	typeref:enum:__anon7
+attribute_size_onoff_cluster_e	client-enddevice/include/on_off.h	/^} attribute_size_onoff_cluster_e;$/;"	t	typeref:enum:__anon24
+attribute_size_onoff_cluster_e	server-coordinator/include/on_off.h	/^} attribute_size_onoff_cluster_e;$/;"	t	typeref:enum:__anon9
+capability	client-enddevice/include/zdo.h	/^	uint8_t capability;$/;"	m	struct:annce
+capability	server-coordinator/include/zdo.h	/^    uint8_t capability;                                                     $/;"	m	struct:annce
+clientThread	client-enddevice/source/zdo.c	/^void *clientThread(void *arg)$/;"	f
+client_ip	client-enddevice/source/nwk.c	/^	char client_ip[ MAXSIZE ]; $/;"	m	struct:list	file:
+client_ip	server-coordinator/source/nwk.c	/^    char client_ip[ MAXSIZE ]; $/;"	m	struct:list	file:
+client_sid	client-enddevice/source/nwk.c	/^	int client_sid;$/;"	m	struct:list	file:
+client_sid	server-coordinator/source/nwk.c	/^    int client_sid;$/;"	m	struct:list	file:
+client_socket	client-enddevice/source/nwk.c	/^int client_socket;$/;"	v
+client_socket	server-coordinator/source/nwk.c	/^int client_socket;$/;"	v
+clrscr	client-enddevice/source/myutility.c	/^void clrscr()$/;"	f
+clrscr	server-coordinator/source/myutility.c	/^void clrscr()$/;"	f
+clusterId	client-enddevice/include/global.h	/^        uint16_t clusterId;$/;"	m	struct:command
+clusterId	client-enddevice/include/zdo.h	/^	uint16_t clusterId;$/;"	m	struct:descRsp
+clusterId	client-enddevice/include/zdo.h	/^	uint16_t clusterId;$/;"	m	struct:device
+clusterId	server-coordinator/include/global.h	/^        uint16_t clusterId;$/;"	m	struct:command
+clusterId	server-coordinator/include/zdo.h	/^    uint16_t clusterId;                                                         $/;"	m	struct:descRsp
+clusterId	server-coordinator/include/zdo.h	/^    uint16_t clusterId;$/;"	m	struct:device
+clusterSpecific	client-enddevice/include/global.h	/^        bool clusterSpecific;			\/\/ 1 for yes, 0 for not$/;"	m	struct:command
+clusterSpecific	server-coordinator/include/global.h	/^        bool clusterSpecific;			\/\/ 1 for yes, 0 for not$/;"	m	struct:command
+cluster_specific_command_onoff_cluster_e	client-enddevice/include/on_off.h	/^} cluster_specific_command_onoff_cluster_e;$/;"	t	typeref:enum:__anon25
+cluster_specific_command_onoff_cluster_e	server-coordinator/include/on_off.h	/^} cluster_specific_command_onoff_cluster_e;$/;"	t	typeref:enum:__anon10
+comman_h	client-enddevice/include/myutility.h	20;"	d
+comman_h	server-coordinator/include/myutility.h	20;"	d
+command	client-enddevice/include/global.h	/^struct command {$/;"	s
+command	server-coordinator/include/global.h	/^struct command {$/;"	s
+commandId	client-enddevice/include/global.h	/^        uint8_t commandId;$/;"	m	struct:command
+commandId	server-coordinator/include/global.h	/^        uint8_t commandId;$/;"	m	struct:command
+commandIdentifier	client-enddevice/include/frame_structure.h	/^} commandIdentifier;$/;"	t	typeref:enum:__anon26
+commandIdentifier	server-coordinator/include/frame_structure.h	/^} commandIdentifier;$/;"	t	typeref:enum:__anon11
+cordHandler	server-coordinator/source/zdo.c	/^void *cordHandler(void *arg)$/;"	f
+data	client-enddevice/include/global.h	/^        uint16_t data;$/;"	m	struct:command
+data	client-enddevice/include/zdo.h	/^NwkMsg_t *data;$/;"	v
+data	server-coordinator/include/global.h	/^        uint16_t data;$/;"	m	struct:command
+dataZDA	client-enddevice/include/zdo.h	/^typedef struct dataZDA $/;"	s
+dataZDA	server-coordinator/include/zdo.h	/^typedef struct dataZDA                                                              $/;"	s
+decodeClusterSpecificPacket	client-enddevice/source/cluster_command.c	/^int decodeClusterSpecificPacket ( struct command *_cmd, void **_packet, int *_length )$/;"	f
+decodeClusterSpecificPacket	server-coordinator/source/cluster_command.c	/^int decodeClusterSpecificPacket ( struct command *_cmd, void **_packet, int *_length )$/;"	f
+descResponse	client-enddevice/include/zdo.h	/^struct descResponse$/;"	s
+descResponse	server-coordinator/include/zdo.h	/^struct descResponse                                                             $/;"	s
+descRsp	client-enddevice/include/zdo.h	/^struct descRsp$/;"	s
+descRsp	server-coordinator/include/zdo.h	/^struct descRsp                                                                  $/;"	s
+descriptorReq	client-enddevice/include/zdo.h	/^struct descriptorReq$/;"	s
+descriptorReq	server-coordinator/include/zdo.h	/^struct descriptorReq$/;"	s
+devId	client-enddevice/include/zdo.h	/^	uint16_t devId;$/;"	m	struct:annce
+devId	server-coordinator/include/zdo.h	/^    uint16_t devId;                                                         $/;"	m	struct:annce
+device	client-enddevice/include/zdo.h	/^typedef struct device$/;"	s
+device	server-coordinator/include/zdo.h	/^typedef struct device$/;"	s
+deviceAnnce	client-enddevice/source/zdo.c	/^void deviceAnnce()$/;"	f
+deviceId	client-enddevice/include/zdo.h	/^	uint16_t deviceId;$/;"	m	struct:device
+deviceId	server-coordinator/include/zdo.h	/^    uint16_t deviceId;$/;"	m	struct:device
+deviceList	client-enddevice/include/zdo.h	/^} deviceList;$/;"	t	typeref:struct:device
+deviceList	server-coordinator/include/zdo.h	/^} deviceList;$/;"	t	typeref:struct:device
+deviceType	server-coordinator/include/zdo.h	/^    char deviceType[20];$/;"	m	struct:device
+device_data	client-enddevice/source/global.c	/^void *device_data[5];$/;"	v
+device_data	server-coordinator/source/global.c	/^void *device_data[5];$/;"	v
+device_id	client-enddevice/include/NWK.h	/^	uint16_t device_id;$/;"	m	struct:__anon21
+device_id	client-enddevice/source/nwk.c	/^	uint16_t  device_id;$/;"	m	struct:list	file:
+device_id	server-coordinator/include/NWK.h	/^    uint16_t device_id;$/;"	m	struct:__anon6
+device_id	server-coordinator/source/nwk.c	/^    uint16_t  device_id;$/;"	m	struct:list	file:
+display	client-enddevice/source/zdo.c	/^void display(deviceList* head)$/;"	f
+display	server-coordinator/source/zdo.c	/^void display(deviceList* head)$/;"	f
+end	client-enddevice/source/myutility.c	/^void end()$/;"	f
+end	server-coordinator/source/myutility.c	/^void end()$/;"	f
+findEntry	client-enddevice/source/zdo.c	/^int findEntry(uint16_t id)$/;"	f
+findEntry	server-coordinator/source/zdo.c	/^int findEntry(uint16_t id)$/;"	f
+flush	client-enddevice/source/myutility.c	/^void flush()$/;"	f
+flush	server-coordinator/source/myutility.c	/^void flush()$/;"	f
+frame	server-coordinator/include/zdo.h	/^newFrame *frame;$/;"	v
+frameControl	client-enddevice/include/frame_structure.h	/^} frameControl;$/;"	t	typeref:enum:__anon27
+frameControl	server-coordinator/include/frame_structure.h	/^} frameControl;$/;"	t	typeref:enum:__anon12
+frameD	client-enddevice/include/zdo.h	/^} *frameD;$/;"	v	typeref:struct:descriptorReq
+frameD	server-coordinator/include/zdo.h	/^} *frameD;$/;"	v	typeref:struct:descriptorReq
+frameRsp	client-enddevice/include/zdo.h	/^} *frameRsp;$/;"	v	typeref:struct:descResponse
+frameRsp	server-coordinator/include/zdo.h	/^} *frameRsp;$/;"	v	typeref:struct:descResponse
+frame_decoder	client-enddevice/source/aps.c	/^void *frame_decoder( void *msg )$/;"	f
+frame_decoder	server-coordinator/source/aps.c	/^void *frame_decoder( void *msg )$/;"	f
+frame_t	client-enddevice/include/APS.h	/^}PACKED frame_t;$/;"	t	typeref:struct:APS_Frame
+frame_t	server-coordinator/include/APS.h	/^}PACKED frame_t;$/;"	t	typeref:struct:APS_Frame
+g_device_list	client-enddevice/source/nwk.c	/^int g_device_list[MAXDEVICE]; $/;"	v
+g_device_list	server-coordinator/source/nwk.c	/^int g_device_list[MAXDEVICE]; $/;"	v
+g_root	client-enddevice/source/nwk.c	/^struct list *g_root; $/;"	v	typeref:struct:list
+g_root	server-coordinator/source/nwk.c	/^struct list *g_root; $/;"	v	typeref:struct:list
+getDevice	server-coordinator/source/zdo.c	/^deviceList *getDevice()$/;"	f
+head	client-enddevice/include/zdo.h	/^deviceList *head;$/;"	v
+head	server-coordinator/include/zdo.h	/^deviceList *head;$/;"	v
+iEEEAdd	client-enddevice/include/zdo.h	/^	uint64_t iEEEAdd;$/;"	m	struct:annce
+iEEEAdd	server-coordinator/include/zdo.h	/^    uint64_t iEEEAdd;                                                       $/;"	m	struct:annce
+id	client-enddevice/source/nwk.c	/^int id;$/;"	v
+id	server-coordinator/source/nwk.c	/^int id;$/;"	v
+list	client-enddevice/source/nwk.c	/^typedef struct list$/;"	s	file:
+list	server-coordinator/source/nwk.c	/^typedef struct list$/;"	s	file:
+main	client-enddevice/source/main.c	/^int main()$/;"	f
+main	server-coordinator/source/main.c	/^int main()$/;"	f
+maintainTable	client-enddevice/source/zdo.c	/^void maintainTable(uint16_t shortAddr, uint16_t clusterId)$/;"	f
+maintainTable	server-coordinator/source/zdo.c	/^void maintainTable(uint16_t shortAddr, uint16_t clusterId)$/;"	f
+makeClusterSpecificPacket	client-enddevice/source/cluster_command.c	/^int makeClusterSpecificPacket ( struct command *_cmd, void **_packet, int *_length )$/;"	f
+makeClusterSpecificPacket	server-coordinator/source/cluster_command.c	/^int makeClusterSpecificPacket ( struct command *_cmd, void **_packet, int *_length )$/;"	f
+mutex	client-enddevice/source/nwk.c	/^sem_t mutex;$/;"	v
+mutex	server-coordinator/source/nwk.c	/^sem_t mutex;$/;"	v
+name	client-enddevice/include/myutility.h	/^	char name[20];$/;"	m	struct:__anon29
+name	server-coordinator/include/myutility.h	/^    char name[20];$/;"	m	struct:__anon14
+newFrame	client-enddevice/include/zdo.h	/^} newFrame;$/;"	t	typeref:struct:dataZDA
+newFrame	server-coordinator/include/zdo.h	/^} newFrame;$/;"	t	typeref:struct:dataZDA
+next	client-enddevice/include/zdo.h	/^	struct device *next;$/;"	m	struct:device	typeref:struct:device::device
+next	client-enddevice/source/nwk.c	/^	struct list *next;$/;"	m	struct:list	typeref:struct:list::list	file:
+next	server-coordinator/include/zdo.h	/^    struct device *next;$/;"	m	struct:device	typeref:struct:device::device
+next	server-coordinator/source/nwk.c	/^    struct list *next;$/;"	m	struct:list	typeref:struct:list::list	file:
+onOff	client-enddevice/include/on_off.h	/^	bool onOff;$/;"	m	struct:on_off
+onOff	server-coordinator/include/on_off.h	/^	bool onOff;$/;"	m	struct:on_off
+on_off	client-enddevice/include/on_off.h	/^struct on_off{$/;"	s
+on_off	server-coordinator/include/on_off.h	/^struct on_off{$/;"	s
+onoffInit	client-enddevice/source/on_off.c	/^void onoffInit()$/;"	f
+onoffInit	server-coordinator/source/on_off.c	/^void onoffInit()$/;"	f
+onoff_t	client-enddevice/include/on_off.h	/^} onoff_t;$/;"	v	typeref:struct:on_off
+onoff_t	server-coordinator/include/on_off.h	/^} onoff_t;$/;"	v	typeref:struct:on_off
+packet	client-enddevice/include/APS.h	/^	uint8_t packet[100];$/;"	m	struct:APS_Frame
+packet	client-enddevice/include/NWK.h	/^	uint8_t packet[500];$/;"	m	struct:__anon21
+packet	server-coordinator/include/APS.h	/^    uint8_t packet[100];$/;"	m	struct:APS_Frame
+packet	server-coordinator/include/NWK.h	/^    uint8_t packet[500];$/;"	m	struct:__anon6
+packet_length	client-enddevice/include/NWK.h	/^	uint16_t packet_length;$/;"	m	struct:__anon21
+packet_length	server-coordinator/include/NWK.h	/^    uint16_t packet_length;$/;"	m	struct:__anon6
+payLoad	client-enddevice/include/zdo.h	/^	struct _SimpleDescriptor payLoad;$/;"	m	struct:descriptorReq	typeref:struct:descriptorReq::_SimpleDescriptor
+payLoad	client-enddevice/include/zdo.h	/^	struct annce payLoad;$/;"	m	struct:dataZDA	typeref:struct:dataZDA::annce
+payLoad	client-enddevice/include/zdo.h	/^	struct descRsp payLoad;$/;"	m	struct:descResponse	typeref:struct:descResponse::descRsp
+payLoad	server-coordinator/include/zdo.h	/^    struct _SimpleDescriptor payLoad;$/;"	m	struct:descriptorReq	typeref:struct:descriptorReq::_SimpleDescriptor
+payLoad	server-coordinator/include/zdo.h	/^    struct annce payLoad;                                                   $/;"	m	struct:dataZDA	typeref:struct:dataZDA::annce
+payLoad	server-coordinator/include/zdo.h	/^    struct descRsp payLoad;                                                     $/;"	m	struct:descResponse	typeref:struct:descResponse::descRsp
+position	client-enddevice/source/zdo.c	/^int position = 0;$/;"	v
+position	server-coordinator/source/zdo.c	/^int position = 0;$/;"	v
+raw	client-enddevice/include/APS.h	/^	uint8_t raw;$/;"	m	union:__anon17
+raw	server-coordinator/include/APS.h	/^    uint8_t raw;$/;"	m	union:__anon2
+readAttributeRequest	client-enddevice/source/read_attribute_request.c	/^int readAttributeRequest ( struct command *_cmd, void **_packet, int *_len )$/;"	f
+readAttributeRequest	server-coordinator/source/read_attribute_request.c	/^int readAttributeRequest ( struct command *_cmd, void **_packet, int *_len )$/;"	f
+readAttributeRequestDecoder	client-enddevice/source/read_attribute_request.c	/^int readAttributeRequestDecoder ( struct command *_cmd, void **_packet, int *_len )$/;"	f
+readAttributeRequestDecoder	server-coordinator/source/read_attribute_request.c	/^int readAttributeRequestDecoder ( struct command *_cmd, void **_packet, int *_len )$/;"	f
+readAttributeResponse	client-enddevice/source/read_attribute_response.c	/^int readAttributeResponse ( struct command *_cmd, void **_packet, int *_len )$/;"	f
+readAttributeResponse	server-coordinator/source/read_attribute_response.c	/^int readAttributeResponse ( struct command *_cmd, void **_packet, int *_len )$/;"	f
+readAttributeResponseDecoder	client-enddevice/source/read_attribute_response.c	/^int readAttributeResponseDecoder(struct command *_cmd, void **_packet,int *_len)$/;"	f
+readAttributeResponseDecoder	server-coordinator/source/read_attribute_response.c	/^int readAttributeResponseDecoder(struct command *_cmd, void **_packet,int *_len)$/;"	f
+removeDevice	server-coordinator/source/zdo.c	/^void removeDevice(uint16_t remId)$/;"	f
+sSimpleDescriptor	client-enddevice/include/zdo.h	/^} sSimpleDescriptor;$/;"	v	typeref:struct:_SimpleDescriptor
+sSimpleDescriptor	server-coordinator/include/zdo.h	/^} sSimpleDescriptor;$/;"	v	typeref:struct:_SimpleDescriptor
+shortAddr	client-enddevice/include/zdo.h	/^	uint16_t shortAddr;$/;"	m	struct:descRsp
+shortAddr	server-coordinator/include/zdo.h	/^    uint16_t shortAddr;                                                         $/;"	m	struct:descRsp
+simpleDescReq	client-enddevice/source/zdo.c	/^void simpleDescReq(uint16_t add)$/;"	f
+simpleDescReq	server-coordinator/source/zdo.c	/^void simpleDescReq(uint16_t add)$/;"	f
+simpleDescRsp	client-enddevice/source/zdo.c	/^void simpleDescRsp(uint16_t addr)$/;"	f
+simpleDescRsp	server-coordinator/source/zdo.c	/^void simpleDescRsp(uint16_t addr)$/;"	f
+smart_bulb	server-coordinator/source/light.c	/^void smart_bulb(int id)$/;"	f
+socket_desc	client-enddevice/source/nwk.c	/^int socket_desc;$/;"	v
+socket_desc	server-coordinator/source/nwk.c	/^int socket_desc;$/;"	v
+status	client-enddevice/include/myutility.h	/^	int status;$/;"	m	struct:__anon29
+status	client-enddevice/source/main.c	/^int status = 0;$/;"	v
+status	server-coordinator/include/myutility.h	/^    int status;$/;"	m	struct:__anon14
+term	client-enddevice/source/zdo.c	/^int term = 1;$/;"	v
+term	server-coordinator/source/zdo.c	/^int term = 1;$/;"	v
+u16ClusterIdentifier	client-enddevice/include/APS.h	/^	uint16_t u16ClusterIdentifier;$/;"	m	struct:APS_Frame
+u16ClusterIdentifier	server-coordinator/include/APS.h	/^    uint16_t u16ClusterIdentifier;$/;"	m	struct:APS_Frame
+u16GroupAddress	client-enddevice/include/APS.h	/^	uint16_t u16GroupAddress;$/;"	m	struct:APS_Frame
+u16GroupAddress	server-coordinator/include/APS.h	/^    uint16_t u16GroupAddress;$/;"	m	struct:APS_Frame
+u16Length	client-enddevice/include/zdo.h	/^	uint16_t u16Length;$/;"	m	struct:dataZDA
+u16Length	client-enddevice/include/zdo.h	/^	uint16_t u16Length;$/;"	m	struct:descResponse
+u16Length	client-enddevice/include/zdo.h	/^	uint16_t u16Length;$/;"	m	struct:descriptorReq
+u16Length	server-coordinator/include/zdo.h	/^    uint16_t u16Length;                                                         $/;"	m	struct:descResponse
+u16Length	server-coordinator/include/zdo.h	/^    uint16_t u16Length;                                                     $/;"	m	struct:dataZDA
+u16Length	server-coordinator/include/zdo.h	/^    uint16_t u16Length;$/;"	m	struct:descriptorReq
+u16MsgType	client-enddevice/include/zdo.h	/^	uint16_t u16MsgType;$/;"	m	struct:descResponse
+u16MsgType	client-enddevice/include/zdo.h	/^	uint16_t u16MsgType;$/;"	m	struct:descriptorReq
+u16MsgType	server-coordinator/include/zdo.h	/^    uint16_t u16MsgType;                                                        $/;"	m	struct:descResponse
+u16MsgType	server-coordinator/include/zdo.h	/^    uint16_t u16MsgType;$/;"	m	struct:descriptorReq
+u16ProfileIdentifier	client-enddevice/include/APS.h	/^	uint16_t u16ProfileIdentifier;$/;"	m	struct:APS_Frame
+u16ProfileIdentifier	server-coordinator/include/APS.h	/^    uint16_t u16ProfileIdentifier;$/;"	m	struct:APS_Frame
+u16TargetAddress	client-enddevice/include/zdo.h	/^	uint16_t    u16TargetAddress;$/;"	m	struct:_SimpleDescriptor
+u16TargetAddress	server-coordinator/include/zdo.h	/^    uint16_t    u16TargetAddress;$/;"	m	struct:_SimpleDescriptor
+u16Type	client-enddevice/include/zdo.h	/^	uint16_t u16Type;$/;"	m	struct:dataZDA
+u16Type	server-coordinator/include/zdo.h	/^    uint16_t u16Type;                                                       $/;"	m	struct:dataZDA
+u8APSCounter	client-enddevice/include/APS.h	/^	uint8_t u8APSCounter;$/;"	m	struct:APS_Frame
+u8APSCounter	server-coordinator/include/APS.h	/^    uint8_t u8APSCounter;$/;"	m	struct:APS_Frame
+u8DestinationEndPoint	client-enddevice/include/APS.h	/^	uint8_t u8DestinationEndPoint;$/;"	m	struct:APS_Frame
+u8DestinationEndPoint	server-coordinator/include/APS.h	/^    uint8_t u8DestinationEndPoint;$/;"	m	struct:APS_Frame
+u8Endpoint	client-enddevice/include/zdo.h	/^	uint8_t     u8Endpoint;$/;"	m	struct:_SimpleDescriptor
+u8Endpoint	server-coordinator/include/zdo.h	/^    uint8_t     u8Endpoint;$/;"	m	struct:_SimpleDescriptor
+u8SourceEndPoint	client-enddevice/include/APS.h	/^	uint8_t u8SourceEndPoint;$/;"	m	struct:APS_Frame
+u8SourceEndPoint	server-coordinator/include/APS.h	/^    uint8_t u8SourceEndPoint;$/;"	m	struct:APS_Frame
+validateClusterId	client-enddevice/source/cluster_id.c	/^int validateClusterId ( uint16_t _clusterId, uint16_t _arr )$/;"	f
+validateClusterId	server-coordinator/source/cluster_id.c	/^int validateClusterId ( uint16_t _clusterId, uint16_t _arr )$/;"	f
+validateOnOffAttr	client-enddevice/source/on_off.c	/^int validateOnOffAttr ( uint16_t _arr )$/;"	f
+validateOnOffAttr	server-coordinator/source/on_off.c	/^int validateOnOffAttr ( uint16_t _arr )$/;"	f
+zclDecoder	client-enddevice/source/zcl.c	/^int zclDecoder ( struct command *_cmd, void **_packet, int *_len )$/;"	f
+zclDecoder	server-coordinator/source/zcl.c	/^int zclDecoder ( struct command *_cmd, void **_packet, int *_len )$/;"	f
+zclEncoder	client-enddevice/source/zcl.c	/^int zclEncoder ( struct command *_cmd, void **_packet, int *_len )$/;"	f
+zclEncoder	server-coordinator/source/zcl.c	/^int zclEncoder ( struct command *_cmd, void **_packet, int *_len )$/;"	f
