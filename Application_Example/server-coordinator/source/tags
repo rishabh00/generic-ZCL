@@ -1,0 +1,80 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APDE_NWK	nwk.c	/^int APDE_NWK( NwkMsg_t *msg )$/;"	f
+APDE_ZCL_Handler	aps.c	/^void ( *APDE_ZCL_Handler )( frame_t );$/;"	v
+APDE_ZCL_Saphandler	aps.c	/^void APDE_ZCL_Saphandler( frame_t msg )$/;"	f
+APME_ZDO_Handler	aps.c	/^void ( *APME_ZDO_Handler )( frame_t );$/;"	v
+APME_ZDO_Saphandler	aps.c	/^void APME_ZDO_Saphandler( frame_t msg )$/;"	f
+APSDE_DATA_Request	aps.c	/^void APSDE_DATA_Request( struct DATA_Request *req )$/;"	f
+APSKEY	aps.c	20;"	d	file:
+APS_RegisterSapHandlers	aps.c	/^void APS_RegisterSapHandlers(void (*APME_ZDO_SapHandler)( frame_t MsgDecode ), void (*APDE_ZCL_SapHandler)( frame_t MsgDecode ))$/;"	f
+APS_init	aps.c	/^void APS_init()$/;"	f
+AddDeviceInList	nwk.c	/^void AddDeviceInList( int id, char ip[] )$/;"	f
+AddedDevice	main.c	/^}AddedDevice;$/;"	t	typeref:struct:lst	file:
+ClientInit	nwk.c	/^int ClientInit( void )$/;"	f
+DeviceList	nwk.c	/^} DeviceList;$/;"	t	typeref:struct:list	file:
+FindId	nwk.c	/^int FindId()$/;"	f
+GiveId	nwk.c	/^uint16_t GiveId(int client_socket)$/;"	f
+MAXDEVICE	nwk.c	27;"	d	file:
+MAXSIZE	nwk.c	26;"	d	file:
+MCPS_ZCL_Handler	nwk.c	/^void (*MCPS_ZCL_Handler)( NwkMsg_t );$/;"	v
+MCPS_ZCL_SapHandler	aps.c	/^void MCPS_ZCL_SapHandler( NwkMsg_t msg )$/;"	f
+NWK_FAILED	nwk.c	/^    NWK_FAILED,$/;"	e	enum:__anon1	file:
+NWK_Init	nwk.c	/^int NWK_Init( int type )$/;"	f
+NWK_Respnose_t	nwk.c	/^}NWK_Respnose_t;$/;"	t	typeref:enum:__anon1	file:
+NWK_SUCCESS	nwk.c	/^    NWK_SUCCESS,$/;"	e	enum:__anon1	file:
+NW_RegisterSapHandlers	nwk.c	/^void NW_RegisterSapHandlers(void (*MCPS_ZCL_SapHandler)( NwkMsg_t msg ))$/;"	f
+PACKED	aps.c	/^}PACKED;$/;"	v	typeref:struct:msgbuf
+PACKED	aps.c	18;"	d	file:
+QUEUESIZE	aps.c	19;"	d	file:
+RecvFromClient	nwk.c	/^void *RecvFromClient( void *data )$/;"	f
+RecvFromQueue	aps.c	/^void *RecvFromQueue( void *data )$/;"	f
+RecvFromServer	nwk.c	/^void *RecvFromServer( void *data )$/;"	f
+RemoveDeviceFromList	nwk.c	/^void RemoveDeviceFromList( int client_sock )$/;"	f
+ServerInit	nwk.c	/^void *ServerInit( void *msg )$/;"	f
+buffer	aps.c	/^    uint8_t buffer[QUEUESIZE];$/;"	m	struct:msgbuf	file:
+client_ip	nwk.c	/^    char client_ip[ MAXSIZE ]; $/;"	m	struct:list	file:
+client_sid	nwk.c	/^    int client_sid;$/;"	m	struct:list	file:
+client_socket	nwk.c	/^int client_socket;$/;"	v
+clrscr	myutility.c	/^void clrscr()$/;"	f
+decodeClusterSpecificPacket	cluster_command.c	/^int decodeClusterSpecificPacket ( struct command *_cmd, void **_packet, int *_length )$/;"	f
+device_data	global.c	/^void *device_data[5];$/;"	v
+device_id	nwk.c	/^    uint16_t  device_id;$/;"	m	struct:list	file:
+device_type	main.c	/^    char device_type[20];$/;"	m	struct:lst	file:
+die	aps.c	/^void die(char *s)$/;"	f
+end	myutility.c	/^void end()$/;"	f
+flag	aps.c	/^int flag=0;$/;"	v
+flush	myutility.c	/^void flush()$/;"	f
+frame_decoder	aps.c	/^void frame_decoder( void *msg )$/;"	f
+g_device_list	nwk.c	/^int g_device_list[MAXDEVICE]; $/;"	v
+g_root	nwk.c	/^struct list *g_root; $/;"	v	typeref:struct:list
+id	nwk.c	/^int id;$/;"	v
+id_device	main.c	/^    uint16_t id_device;$/;"	m	struct:lst	file:
+list	nwk.c	/^typedef struct list$/;"	s	file:
+lst	main.c	/^typedef struct lst$/;"	s	file:
+main	main.c	/^int main()$/;"	f
+makeClusterSpecificPacket	cluster_command.c	/^int makeClusterSpecificPacket ( struct command *_cmd, void **_packet, int *_length )$/;"	f
+msgbuf	aps.c	/^struct msgbuf$/;"	s	file:
+msqid	aps.c	/^int msqid;$/;"	v
+mtype	aps.c	/^    long mtype;$/;"	m	struct:msgbuf	file:
+mutex	nwk.c	/^sem_t mutex;$/;"	v
+next	main.c	/^    struct lst *next;$/;"	m	struct:lst	typeref:struct:lst::lst	file:
+next	nwk.c	/^    struct list *next;$/;"	m	struct:list	typeref:struct:list::list	file:
+onoffInit	on_off.c	/^void onoffInit()$/;"	f
+ptr	aps.c	/^uint8_t *ptr;$/;"	v
+readAttributeRequest	read_attribute_request.c	/^int readAttributeRequest ( struct command *_cmd, void **_packet, int *_len )$/;"	f
+readAttributeRequestDecoder	read_attribute_request.c	/^int readAttributeRequestDecoder ( struct command *_cmd, void **_packet, int *_len )$/;"	f
+readAttributeResponse	read_attribute_response.c	/^int readAttributeResponse ( struct command *_cmd, void **_packet, int *_len )$/;"	f
+readAttributeResponseDecoder	read_attribute_response.c	/^int readAttributeResponseDecoder(struct command *_cmd, void **_packet,int *_len)$/;"	f
+root	main.c	/^AddedDevice *root = NULL;$/;"	v
+smart_bulb	light.c	/^void smart_bulb(int id)$/;"	f
+socket_desc	nwk.c	/^int socket_desc;$/;"	v
+type_number	main.c	/^    int type_number;$/;"	m	struct:lst	file:
+validateClusterId	cluster_id.c	/^int validateClusterId ( uint16_t _clusterId, uint16_t _arr )$/;"	f
+validateOnOffAttr	on_off.c	/^int validateOnOffAttr ( uint16_t _arr )$/;"	f
+zclDecoder	zcl.c	/^int zclDecoder ( struct command *_cmd, void **_packet, int *_len )$/;"	f
+zclEncoder	zcl.c	/^int zclEncoder ( struct command *_cmd, void **_packet, int *_len )$/;"	f
